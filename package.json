@@ -3,13 +3,41 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@fullcalendar/core": "^6.1.4",
+    "@fullcalendar/daygrid": "^6.1.4",
+    "@fullcalendar/react": "^6.1.4",
+    "@material-tailwind/react": "^1.4.2",
+    "@tanstack/match-sorter-utils": "^8.8.4",
+    "@tanstack/react-table": "^8.9.1",
+    "@tanstack/react-virtual": "^3.0.0-beta.54",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.0",
+    "cookies": "^0.8.0",
+    "framer-motion": "^10.0.1",
+    "fullcalendar": "^6.1.4",
+    "highlight-words": "^1.2.2",
+    "js-cookie": "^3.0.1",
+    "js-file-download": "^0.4.12",
+    "material-react-table": "^1.11.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "react-icons": "^4.8.0",
+    "react-intersection-observer": "^9.5.1",
+    "react-router-dom": "^6.8.1",
+    "react-router-hash-link": "^2.4.3",
+    "react-scripts": "^5.0.1",
+    "react-spinners": "^0.13.8",
+    "react-to-print": "^2.14.13",
+    "react-tooltip": "^5.13.1",
+    "sweetalert2": "^11.7.3",
+    "universal-cookie": "^4.0.4",
+    "web-vitals": "^2.1.4",
+    "zustand": "^4.3.7"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,5 +62,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
   }
 }
