@@ -38,7 +38,7 @@ const [loading,setloading] = useState(true)
       e.preventDefault(); 
       setloading(true)
         try{
-          const response= await Axios.get(`http://localhost:3500/login/${user}/${pwd}`)
+          const response= await Axios.get(`https://back-end1z.onrender.com/login/${user}/${pwd}`)
                 
                 setTimeout(()=>{
                   setloading(false)
